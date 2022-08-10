@@ -13,7 +13,7 @@ void findTeddyBear()
     }
 }
 
-or
+// or
 
 void findTeddyBear () 
 {
