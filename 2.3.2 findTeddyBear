@@ -2,7 +2,7 @@ void findTeddyBear()
 {
     while (!onBeeper())
     {
-        if (frontIsClear())
+        if (frontIsClear()) 
         {
             moveForward();
         }
@@ -10,5 +10,19 @@ void findTeddyBear()
         {
             turnLeft();
         }
+    }
+}
+
+or
+
+void findTeddyBear () 
+{
+    while (!onBeeper ()) 
+    {
+        while (!frontIsClear ()) 
+        {
+            turnLeft ();
+        }
+        moveForward ();
     }
 }
